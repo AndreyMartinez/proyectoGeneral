@@ -11,5 +11,22 @@
   	<module>RestService</module>
   </modules>
   
+  <properties>
+  
+	<!-- primefaces -->
+		<primefaces.version>6.2</primefaces.version>
+
+		<primefaces_theme.version>1.0.10</primefaces_theme.version>
+
+		<!-- omnifaces -->
+		<omnifaces.version>2.0</omnifaces.version>
+
+  </properties>
+	<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>7.0</version>
+				<scope>provided</scope>
+			</dependency>
   
 </project>
