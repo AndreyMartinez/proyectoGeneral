@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>javaMaven</groupId>
-    <artifactId>projectoGeneral</artifactId>
+    <artifactId>proyectoGeneral</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>RestService</artifactId>
