@@ -1,19 +1,19 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>javaMaven</groupId>
-  <artifactId>proyectoGeneral</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>ProyectoGeneral</name>
-  <modules>
-  	
-  	<module>ModuleWeb</module>
-  	<module>RestService</module>
-  </modules>
-  
-  <properties>
-  
-	<!-- primefaces -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>javaMaven</groupId>
+	<artifactId>proyectoGeneral</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>ProyectoGeneral</name>
+	<modules>
+		<module>ModuleWeb</module>
+		<module>RestService</module>
+	</modules>
+
+	<properties>
+
+		<!-- primefaces -->
 		<primefaces.version>6.2</primefaces.version>
 
 		<primefaces_theme.version>1.0.10</primefaces_theme.version>
@@ -21,12 +21,15 @@
 		<!-- omnifaces -->
 		<omnifaces.version>2.0</omnifaces.version>
 
-  </properties>
+	</properties>
+	<dependencies>
 	<dependency>
-				<groupId>javax</groupId>
-				<artifactId>javaee-api</artifactId>
-				<version>7.0</version>
-				<scope>provided</scope>
-			</dependency>
-  
+		<groupId>javax</groupId>
+		<artifactId>javaee-api</artifactId>
+		<version>7.0</version>
+		<scope>provided</scope>
+	</dependency>
+	</dependencies>
+
+
 </project>
