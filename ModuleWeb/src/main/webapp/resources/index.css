@@ -1,5 +1,36 @@
-body{
-	background-image: url('https://images.pexels.com/photos/561201/pexels-photo-561201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+body {
+	background-image:
+		url('https://images.pexels.com/photos/561201/pexels-photo-561201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.form {
+	width: 90%;
+	margin: auto auto;
+}
+.map{
+	width:100%;
+	height:50vh;
+}
+
+.carousel{
+	border-radius:7px;
+	display:flex;
+	align-items:center;
+	background-color: white;
+    margin: 15px 70px;
+    width: 90%;
+    height: 183px;
+}
+.carousel-inner{
+	text-align: center;
+    color: black;
+}
+
+.carousel-control-prev-icon  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon{
+	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); 
 }

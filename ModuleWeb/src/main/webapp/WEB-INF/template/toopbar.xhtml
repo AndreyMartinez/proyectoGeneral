@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+	<h:head>
+		<link rel="stylesheet" href="resources/toopbar.css" />
+	</h:head>
+	<h:form>
+		<nav>
+			<ul class="nav nav-tabs justify-content-end">
+				<li class="nav-item"><a class="nav-link" href="#">Red de
+						urgencias</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="redAsistencial.xhtml">Red asistencial</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Teléfonos</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Cerrar
+						sesión</a></li>
+			</ul>
+		</nav>
+		<p:dialog header="teléfonos" widgetVar="telefonos" modal="true"
+			height="100">
+			<h1>HELL</h1>
+		</p:dialog>
+	</h:form>
+</ui:composition>

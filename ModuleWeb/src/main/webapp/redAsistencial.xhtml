@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/template/template.xhtml">
+	<ui:define name="titulo">Index</ui:define>
+	<ui:define name="header">
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=you_api"></script>
+	</ui:define>
+	<ui:define name="content">
+		<h:form id="form" class="form">
+			<p:panel>
+				<p:gmap center="36.879466, 30.667848" zoom="15" type="ROADMAP"
+					model="#{mapsController.draggableModel}" class="map"
+					>
+					<p:ajax event="markerDrag"
+						listener="#{mapsController.onMarkerDrag}" update="growl" />
+				</p:gmap>
+			</p:panel>
+		</h:form>
+		<h1>RED</h1>
+		</ui:define>
+		
+</ui:composition>

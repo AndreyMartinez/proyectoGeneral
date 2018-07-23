@@ -7,12 +7,15 @@
 <h:head>
 	<link rel="stylesheet" href="resources/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="resources/css/bootstrap-grid.css" />
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="resources/index.css" />
 	<ui:insert name="header" />
 	<title><ui:insert name="title" /></title>
 </h:head>
 <h:body>
-		<ui:include src="/toopbar.xhtml" />
+		<ui:include src="/WEB-INF/template/toopbar.xhtml" />
 			<p:growl id="growl" showDetail="true" />
 			<ui:insert name="content" />
 </h:body>

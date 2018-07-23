@@ -9,11 +9,11 @@
 			src="https://maps.googleapis.com/maps/api/js?key=you_api"></script>
 	</ui:define>
 	<ui:define name="content">
-		<h:form id="form">
+		<h:form id="form" class="form">
 			<p:panel>
 				<p:gmap center="36.879466, 30.667848" zoom="15" type="ROADMAP"
-					model="#{mapsController.draggableModel}"
-					style="width:100%;height:400px">
+					model="#{mapsController.draggableModel}" class="map"
+					>
 					<p:ajax event="markerDrag"
 						listener="#{mapsController.onMarkerDrag}" update="growl" />
 				</p:gmap>
