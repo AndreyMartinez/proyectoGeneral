@@ -1,3 +1,4 @@
+package TestDto;
 
 public class TestDto{
 private Boolean success;
